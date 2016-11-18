@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.yourname.trLPV" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Star Wars Infos</name>
+    <description>
+            Informaçoes sobre Star Wars
+        </description>
+    <author email="walesca.andrade@icloud.com" href="http://fibr.br">
+            Walesca Andrade
+        </author>
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <platform name="android">
+        <preference name="StatusBarBackgroundColor" value="#FFA500" />
+    </platform>
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.0" />
+    <engine name="android" spec="~5.2.2" />
+</widget>
